@@ -1,0 +1,26 @@
+{
+  "name": "reeplymx/reeply-api-client-php",
+  "description": "API client for Reeply",
+  "keywords": [
+    "reeply",
+    "rest",
+    "api",
+    "messaging"
+  ],
+  "authors": [
+    {
+      "name": "Reeply",
+      "email": "info@reeply.mx"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Reeply\\ApiClient\\": "src/"
+    }
+  }
+}
